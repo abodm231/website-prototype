@@ -1,0 +1,181 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+/* NavBar Section */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+/* Download Buttons */
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+    background: #ff4c68;
+    color: #fff;
+    text-align:left;
+}
+#title .container-fluid{
+    padding:3% 15% 7%;
+}
+.title-img {
+    width: 55%;
+    transform:rotate(20deg);
+    position:absolute;
+    right:25%;
+    top:15px;
+    z-index:1;  
+}
+
+/* Feautures Section */
+#features {
+    background-color: #fff;
+    padding: 7% 10%;
+    position: relative;
+    z-index:2;
+}
+
+.feature-bx {
+    text-align: center;
+    padding: 0 4.5%;
+    margin-bottom: 3rem;
+}
+
+.icon {
+    color: #ef8172;
+    /* font-size:4rem; */
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+    transition:0.2s ease-out 0.2s;
+}
+
+.feature-heading{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.feature-bx p {
+    color: #8f8f8f;
+}
+
+/* Testimonials Section */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    position: relative;
+    z-index:2;
+}
+.testimonial-text{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* Press Section */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom:3%;
+}
+.press-logo{
+    width:15%;
+    margin:20px 30px 40px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding:100px;
+}
+.pricing-text{
+    font-size:3rem;
+    font-weight:800;
+}
+#pricing p{
+    color: #8f8f8f;
+}
+.pricing-card{
+    padding:4% 2% 3%;
+}
+.card-heading{
+    font-weight: 800;
+    font-size: 2.2rem;
+}
+.card-heading-price{
+    font-size:2rem;
+    font-weight:800;
+}
+ /* Call to Action */
+ #cta{
+     background:#ff4c68;
+ }
+#cta h3{
+        font-size: 3.5rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        line-height: 1.5;
+        color:white;
+    
+}
+
+/* Footer */
+#footer{
+    background:white;
+}
+#footer i{
+    margin:20px 10px;
+}
+
+#footer p{
+    color:gray;
+    margin-top:10px;
+}
+@media (max-width:1000px){
+    #title{
+        text-align:center;
+    }
+    .title-img{
+        position:static;
+        transform: rotate(0);
+    }
+}
+
